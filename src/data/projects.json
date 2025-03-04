@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Rick and Morty Wiki",
+    "imageSrc": "projects/rnm.png",
+    "description": "",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://triborya.github.io/RnM-API/",
+    "source": "https://github.com/triborya/RnM-API"
+  },
+  {
+    "title": "Self Care Center",
+    "imageSrc": "projects/selfcarecenter.png",
+    "description": "",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://triborya.github.io/SelfCareCenter/",
+    "source": "https://github.com/triborya/SelfCareCenter"
+  },
+  {
+    "title": "Time Tracker",
+    "imageSrc": "projects/timetrack.png",
+    "description": "",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://triborya.github.io/Time-Tracking-Dashboard/",
+    "source": "https://github.com/triborya/Time-Tracking-Dashboard"
+  },
+  {
+    "title": "Pokemon Shopper",
+    "imageSrc": "projects/pokemonshopper.png",
+    "description": "",
+    "skills": ["React", "Express", "Node", "PostgreSQL"],
+    "demo": "",
+    "source": "https://github.com/triborya/PokemonShopper"
+  },
+  {
+    "title": "EvoGym",
+    "imageSrc": "projects/evogym.png",
+    "description": "",
+    "skills": ["React", "Node.js", "TypeScript"],
+    "demo": "https://simplonevogym.netlify.app",
+    "source": "https://github.com/triborya/EvoGym"
+  },
+  {
+    "title": "DimElectronics Store",
+    "imageSrc": "projects/dimelectronics.png",
+    "description": "",
+    "skills": ["WPF", "XAML", "C#", "SQL"],
+    "demo": "",
+    "source": "https://github.com/triborya/DimElectronics"
+  },
+  {
+    "title": "YOLO Training",
+    "imageSrc": "projects/yolo.png",
+    "description": "",
+    "skills": ["Python", "PyTorch", "YOLO"],
+    "demo": "",
+    "source": "https://github.com/triborya/YOLO-Trainer-ONNX-"
+  },
+  {
+    "title": "Discord Bot",
+    "imageSrc": "projects/dbot.png",
+    "description": "",
+    "skills": ["JavaScript", "Node.js"],
+    "demo": "",
+    "source": "https://github.com/triborya/DBot"
+  }
+]

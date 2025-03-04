@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Etudiant",
+    "organisation": "IronHack",
+    "startDate": "Starting soon",
+    "endDate": "Start date in company: 02/06/2025",
+    "experiences": [],
+    "imageSrc": "history/ironhack.png"
+  },
+  {
+    "role": "Etudiant",
+    "organisation": "Simplon",
+    "startDate": "Sept, 2023",
+    "endDate": "Apr, 2024",
+    "experiences": [
+      "Basic web development with HTML, CSS, JS",
+      "Advanced web development with React"
+    ],
+    "imageSrc": "history/simplon.png"
+  },
+  {
+    "role": "Etudiant",
+    "organisation": "CEEF",
+    "startDate": "Sept, 2018",
+    "endDate": "Jun, 2022",
+    "experiences": [
+      "C++, C#, XAML, WPF",
+      "Basics of cybersecurity and classic encryption algorithms"
+    ],
+    "imageSrc": "history/ceef.png"
+  }
+]
