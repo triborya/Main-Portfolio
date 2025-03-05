@@ -5,10 +5,12 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import ParticlesBG from "./components/BG/Particles";
 
 function App() {
   return (
     <div className={styles.App}>
+      <ParticlesBG />
       <Navbar />
       <Hero />
       <About />
