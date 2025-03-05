@@ -1,8 +1,21 @@
-import React, { useCallback, useMemo } from "react";
+import React, { useCallback, useMemo, useState, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 const ParticlesBG = () => {
+  const [particleCount, setParticleCount] = useState(
+    window.innerWidth > 768 ? 100 : 30
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setParticleCount(window.innerWidth > 768 ? 100 : 30);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const options = useMemo(() => {
     return {
       background: {
@@ -10,7 +23,7 @@ const ParticlesBG = () => {
       },
       particles: {
         number: {
-          value: 100,
+          value: particleCount,
         },
         links: {
           distance: 150,
