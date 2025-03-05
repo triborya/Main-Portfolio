@@ -9,9 +9,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Dmitrie</h1>
         <p className={styles.description}>
-          Ma motivation réside dans ma capacité à apprendre vite, m’adapter et
-          contribuer efficacement ; investir en moi, c’est miser sur un talent
-          réactif et autonome, prêt à relever tous les défis.
+          My motivation lies in my ability to learn quickly, adapt and
+          contribute effectively; investing in me means investing in a reactive
+          and autonomous talent, ready to take on any challenge.
         </p>
         <a
           href="mailto:gorobcovdmitrie@gmail.com"

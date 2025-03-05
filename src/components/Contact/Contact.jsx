@@ -13,7 +13,10 @@ export const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:gorobcovdmitrie@gmail.com">
+          <a
+            href="mailto:gorobcovdmitrie@gmail.com"
+            aria-label="Send an email to gorobcovdmitrie@gmail.com"
+          >
             gorobcovdmitrie@gmail.com
           </a>
         </li>
@@ -25,7 +28,8 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dgorobcov/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            aria-label="Visit LinkedIn profile of Dmitrie Gorobcov"
           >
             linkedin.com/dgorobcov
           </a>
@@ -35,7 +39,8 @@ export const Contact = () => {
           <a
             href="https://github.com/triborya"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            aria-label="Visit GitHub profile triborya"
           >
             github.com/triborya
           </a>
