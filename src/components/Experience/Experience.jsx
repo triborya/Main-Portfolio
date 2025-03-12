@@ -35,7 +35,21 @@ export const Experience = () => {
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
+                      return (
+                        <li key={id}>
+                          {experience === "Apprenticeship Brochure" ? (
+                            <a
+                              href="https://drive.google.com/file/d/1puSgOQMogRewKjZWkiVKvxPUyd2CET9p/view?usp=sharing"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Apprenticeship Brochure
+                            </a>
+                          ) : (
+                            experience
+                          )}
+                        </li>
+                      );
                     })}
                   </ul>
                 </div>

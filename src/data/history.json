@@ -1,14 +1,18 @@
 [
   {
-    "role": "Etudiant",
-    "organisation": "IronHack",
-    "startDate": "Starting soon",
-    "endDate": "Start date in company: 02/06/2025",
-    "experiences": [],
-    "imageSrc": "history/ironhack.png"
+    "role": "Apprentice",
+    "organisation": "Le Reacteur",
+    "startDate": "10 weeks bootcamp",
+    "endDate": "15 months apprenticeship",
+    "experiences": [
+      "The basic modules cover JavaScript, front-end (React), back-end (Node.js, Express), and databases (MongoDB).",
+      "The advanced modules focus on TypeScript, full-stack development, mobile apps (React Native).",
+      "Apprenticeship Brochure"
+    ],
+    "imageSrc": "history/lereacteur.png"
   },
   {
-    "role": "Etudiant",
+    "role": "Student",
     "organisation": "Simplon",
     "startDate": "Sept, 2023",
     "endDate": "Apr, 2024",
@@ -19,7 +23,7 @@
     "imageSrc": "history/simplon.png"
   },
   {
-    "role": "Etudiant",
+    "role": "Student",
     "organisation": "CEEF",
     "startDate": "Sept, 2018",
     "endDate": "Jun, 2022",
