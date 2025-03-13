@@ -55,7 +55,7 @@ export const Contact = () => {
       </div>
 
       <p className={styles.legalText}>
-        © 2024 Dmitrie Gorobcov.{" "}
+        © 2025 Dmitrie Gorobcov.{" "}
         <a
           href="#"
           onClick={(e) => {
